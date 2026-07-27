@@ -1,8 +1,30 @@
 aid: giftly
 name: Giftly
-description: Giftly is a company surfaced as a portfolio company of uncork-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Giftly is a digital gifting platform that lets anyone send a flexible monetary
+  gift redeemable at a specific local or national business, or as cash. Senders
+  pick a place or category, customize the card design and tagline, choose a gift
+  amount up to $1,000, and deliver it by email, text, print, or mail. Recipients
+  redeem a Giftly gift as a Visa or Mastercard gift card by mail, as a credit to
+  their bank account, or as a credit to their PayPal account; gifts never expire
+  and carry no inactivity fees. Giftly also runs a corporate and business program
+  for companies sending gifts at scale. This profile was added to the API
+  Evangelist network as a portfolio company of Uncork Capital; Giftly publishes a
+  consumer web product and a business portal, but no public developer API,
+  OpenAPI, or well-known discovery surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/giftly/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://assets.giftly.com/assets/favicon-c8d2233e.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Gift Cards
+- Gifting
+- Payments
+- Prepaid
+- Consumer
+- eCommerce
+- Rewards
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.giftly.com
+- type: Support
+  url: https://www.giftly.com/support
+- type: Blog
+  url: https://blog.giftly.com
+- type: SignUp
+  url: https://www.giftly.com/signup
+- type: Login
+  url: https://www.giftly.com/login
+- type: TermsOfService
+  url: https://www.giftly.com/legal
+- type: PrivacyPolicy
+  url: https://www.giftly.com/privacy
+- type: DomainSecurity
+  url: security/giftly-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
